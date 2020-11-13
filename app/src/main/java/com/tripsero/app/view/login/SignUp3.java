@@ -204,7 +204,7 @@ public class SignUp3 extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
 
                             Toast.makeText(SignUp3.this, R.string.user_created_successfully, Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(SignUp3.this, Login.class));
+                            startActivity(new Intent(SignUp3.this, LoginPage.class));
                         }
                     });
 
@@ -274,7 +274,7 @@ public class SignUp3 extends AppCompatActivity {
                                                     public void onComplete(@NonNull Task<Void> task) {
 
                                                         Toast.makeText(SignUp3.this, R.string.user_created_successfully, Toast.LENGTH_SHORT).show();
-                                                        startActivity(new Intent(SignUp3.this, Login.class));
+                                                        startActivity(new Intent(SignUp3.this, LoginPage.class));
                                                     }
                                                 });
 

@@ -27,7 +27,7 @@ class HomeScreenActivity : AppCompatActivity() {
         if (firebaseUser != null) {
             moveToHomePageFragment(firebaseUser!!)
         } else {
-            val intent = Intent(baseContext, LandingPage::class.java)
+            val intent = Intent(this, LandingPage::class.java)
             startActivity(intent)
         }
 

@@ -17,6 +17,7 @@
         android:background="@color/white"
         app:title="@string/app_name"
         app:titleTextColor="@color/black"
+        android:elevation="5dp"
         android:minHeight="?attr/actionBarSize"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

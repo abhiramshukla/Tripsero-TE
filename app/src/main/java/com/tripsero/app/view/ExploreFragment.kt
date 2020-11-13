@@ -5,11 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.ViewTreeObserver
 import android.widget.LinearLayout
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.squareup.picasso.Picasso
 import com.tripsero.app.databinding.CardViewHomePageBinding
 import com.tripsero.app.databinding.FragmentExploreBinding
 import com.tripsero.app.model.Locations
+import kotlinx.android.synthetic.main.fragment_explore.*
 
 class ExploreFragment : Fragment() {
 
@@ -48,9 +51,16 @@ class ExploreFragment : Fragment() {
             exploreBinding.parentLinearLayoutPlaces.addView(cardViewHomePageBindingPlaces[i]?.root)
         }
 
+        /*exploreBinding.coverImage.viewTreeObserver.addOnGlobalLayoutListener( object: ViewTreeObserver.OnGlobalLayoutListener {
+            override fun onGlobalLayout() {
+                cover_image.viewTreeObserver.removeOnGlobalLayoutListener(this)
+                Picasso.get().load(coverImage).resize(exploreBinding.coverImage.measuredWidth, 0).into(exploreBinding.coverImage)
+            }
+        })*/
+
         exploreBinding.locationName.text = destinationName
-        Picasso.get().load(coverImage).into(exploreBinding.coverImage)
         exploreBinding.destinationInfo.text = destinationInfoText
+        Picasso.get().load(coverImage).into(exploreBinding.coverImage)
         return exploreBinding.root
     }
 }
