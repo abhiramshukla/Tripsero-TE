@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1767439577",
+    "firebase_url": "https://tripsero-565d0.firebaseio.com",
+    "project_id": "tripsero-565d0",
+    "storage_bucket": "tripsero-565d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1767439577:android:fa90d134216e8357f392c8",
+        "android_client_info": {
+          "package_name": "com.devansh.tripsero_user_registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1767439577-f1u0felljiau2jimsb38j9npv0s5a2b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devansh.tripsero_user_registration",
+            "certificate_hash": "5a36110e825c3bc2c33cc170fc11dc04ea04a600"
+          }
+        },
+        {
+          "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QTLbNSa0PwMxen1c1lkYbFhSQEKn1K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1767439577:android:16852e14f46a87a8f392c8",
+        "android_client_info": {
+          "package_name": "com.devansh.user_chat_module"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1767439577-m8sl5rujjgnr9j5cvulnm6i1lud355dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devansh.user_chat_module",
+            "certificate_hash": "5a36110e825c3bc2c33cc170fc11dc04ea04a600"
+          }
+        },
+        {
+          "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QTLbNSa0PwMxen1c1lkYbFhSQEKn1K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1767439577:android:929fb9e154011d7af392c8",
+        "android_client_info": {
+          "package_name": "com.tripsero.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1767439577-05ngghcto5gvme86vmefkt3an40gg9i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripsero.app",
+            "certificate_hash": "7c3ca70d06f338f2d2774c4cb7333c7315f5be11"
+          }
+        },
+        {
+          "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QTLbNSa0PwMxen1c1lkYbFhSQEKn1K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1767439577-s94o0mbnjh448ek22dcvodheq5upsnat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
