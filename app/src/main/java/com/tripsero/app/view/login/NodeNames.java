@@ -2,6 +2,7 @@ package com.tripsero.app.view.login;
 
 public class NodeNames {
     public  static  final  String USERS = "Users";
+    public  static  final  String UID = "uid";
     public  static  final  String ONLINE = "online";
     public  static  final  String USERNAME = "username";
     public  static  final  String NAME = "full name";

@@ -190,6 +190,7 @@ public class SignUp3 extends AppCompatActivity {
 
                     hashMap.put(NodeNames.NAME, getIntent().getStringExtra("name"));
                     hashMap.put(NodeNames.USERNAME, getIntent().getStringExtra("username"));
+                    hashMap.put(NodeNames.UID, firebaseUser.getUid());
                     hashMap.put(NodeNames.EMAIL, getIntent().getStringExtra("email").trim());
                     hashMap.put(NodeNames.ONLINE, "true");
                     hashMap.put(NodeNames.PHOTO, "");
@@ -259,6 +260,7 @@ public class SignUp3 extends AppCompatActivity {
 
                                         hashMap.put(NodeNames.NAME, getIntent().getStringExtra("name"));
                                         hashMap.put(NodeNames.USERNAME, getIntent().getStringExtra("username"));
+                                        hashMap.put(NodeNames.UID, firebaseUser.getUid());
                                         hashMap.put(NodeNames.ONLINE, "true");
                                         hashMap.put(NodeNames.BIO,  bio_of_user.getEditText().getText().toString());
                                         hashMap.put(NodeNames.PASSWORD,getIntent().getStringExtra("password"));

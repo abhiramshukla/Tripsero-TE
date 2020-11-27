@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.ProfileActivity"/>
-        <activity android:name=".view.login.LandingPage"/>
+        <activity android:name=".view.ProfileActivity" />
+        <activity android:name=".view.login.LandingPage" />
         <activity android:name=".view.login.LoginPage" />
         <activity android:name=".view.login.SignUp1" />
         <activity android:name=".view.login.SignUp2" />
@@ -20,6 +20,17 @@
         <activity android:name=".view.login.VerifyOTP" />
         <activity android:name=".view.login.ChangePassword" />
         <activity android:name=".view.login.ResetPassword" />
+        <activity android:name=".view.chat.messages.ChatLogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.chat.messages.LatestTextMessageActivity" />
+        </activity>
+        <activity android:name=".view.chat.messages.NewMessageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.chat.messages.LatestTextMessageActivity" />
+        </activity>
+        <activity android:name=".view.chat.messages.LatestTextMessageActivity" />
         <activity android:name=".view.HomeScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -8,6 +8,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.tripsero.app.R
 import com.tripsero.app.databinding.ActivityHomeScreenBinding
+import com.tripsero.app.view.chat.messages.LatestTextMessageActivity
 import com.tripsero.app.view.login.LandingPage
 
 class HomeScreenActivity : AppCompatActivity() {
@@ -37,7 +38,8 @@ class HomeScreenActivity : AppCompatActivity() {
                     moveToHomePageFragment(firebaseUser!!)
                 }
                 R.id.chats -> {
-                    TODO()
+                    val chatsActivityIntent = Intent(this, LatestTextMessageActivity::class.java)
+                    startActivity(chatsActivityIntent)
                 }
                 R.id.profile -> {
                     val profileActivityIntent = Intent(this, ProfileActivity::class.java)

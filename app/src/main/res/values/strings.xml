@@ -77,5 +77,13 @@
     <string name="todo">TODO</string>
     <string name="new_password">New Password</string>
     <string name="attractions">Attractions</string>
+    <string name="password">Password</string>
+    <string name="status">Status</string>
+    <string name="email">Email</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="this_is_my_message_that_will_wrap_into_multiple_lines_and_keep_on_going">This is my message that will wrap into multiple lines and keep on going</string>
+    <string name="username">Username</string>
+    <string name="latest_message">Latest Message</string>
     <!-- The salutations need to be updated once the user info linking is done -->
 </resources>
